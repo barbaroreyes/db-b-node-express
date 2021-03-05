@@ -5,8 +5,9 @@ module.exports = {
   development: {
     client: 'sqlite3',
     connection: {
-      filename: './data/recap.db3'
-    }
+      filename: './data/lessons.db3'
+    },
+    useNullASDefault:true
   },
-  useNullASDefault:true
+  
 };
